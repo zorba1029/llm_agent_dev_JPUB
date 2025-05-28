@@ -1,0 +1,19 @@
+# Environment variables
+**/.env 
+
+# Virtual environment
+/venv/
+# Older virtual environment
+/.venv/ 
+
+# macOS specific
+**/.DS_Store
+
+
+# Exclude specific file types in ch03/ch03-03/storage/
+ch03/ch03-03/storage/**
+ch03/ch03-03/storage/**/*
+
+# Exclude specific file types in ch04/ch04-04/
+ch04/ch04-04/**/*.png
+ch04/ch04-04/**/*.pptx

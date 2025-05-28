@@ -1,0 +1,27 @@
+input_variables = ['agent_scratchpad', 'input', 'tool_names', 'tools']
+input_types = {}
+partial_variables = {}
+metadata = {
+    'lc_hub_owner': 'hwchase17',
+    'lc_hub_repo': 'react',
+    'lc_hub_commit_hash': 'd15fe3c426f1c4b3f37c9198853e4a86e20c425ca7f4752ec0c9b0e97ca7ea4d'
+}
+template = """Answer the following questions as best you can. You have access to the following tools:
+
+{tools}
+
+Use the following format:
+
+Question: the input question you must answer
+Thought: you should always think about what to do
+Action: the action to take, should be one of [{tool_names}]
+Action Input: the input to the action
+Observation: the result of the action
+... (this Thought/Action/Action Input/Observation can repeat N times)
+Thought: I now know the final answer
+Final Answer: the final answer to the original input question
+
+Begin!
+
+Question: {input}
+Thought:{agent_scratchpad}"""
