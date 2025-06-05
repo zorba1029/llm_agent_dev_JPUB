@@ -3,6 +3,8 @@
 
 # Virtual environment
 /venv/
+/venv_py311/
+
 # Older virtual environment
 /.venv/ 
 
@@ -17,3 +19,7 @@ ch03/ch03-03/storage/**/*
 # Exclude specific file types in ch04/ch04-04/
 ch04/ch04-04/**/*.png
 ch04/ch04-04/**/*.pptx
+
+ch06/langchain_tools.py
+
+ch09/auto_gpt/**/*
